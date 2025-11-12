@@ -14,6 +14,7 @@ public class Speedometer : MonoBehaviour
     private float decreasingSpeed;
     
     private TMP_Text _speedText;
+    private float _currentIncrementingSpeed;
     private float _currentSpeed;
     
     private void Start()
@@ -33,13 +34,19 @@ public class Speedometer : MonoBehaviour
     private void Update()
     {
         if (speedUpActionReference.action.IsPressed())
-            _currentSpeed += increasingSpeed * Time.deltaTime;
+            _currentIncrementingSpeed += increasingSpeed * Time.deltaTime;
         else
-            _currentSpeed -= decreasingSpeed * Time.deltaTime;
-        
+            _currentIncrementingSpeed -= decreasingSpeed * Time.deltaTime;
+
+        _currentSpeed += _currentIncrementingSpeed;
         _currentSpeed = Mathf.Max(_currentSpeed, 0);
+
+        if (_currentSpeed == 0)
+        {
+            _currentIncrementingSpeed = 0;
+        }
         
         if (_speedText != null)
-            _speedText.SetText(_currentSpeed.ToString());
+            _speedText.SetText(_currentSpeed.ToString("0.00"));
     }
 }
