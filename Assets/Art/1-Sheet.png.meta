@@ -106,6 +106,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,16 +139,24 @@ TextureImporter:
       name: 1-Sheet_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 0
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: f085afce9ce98a145ad3782853ccf995
@@ -135,16 +169,24 @@ TextureImporter:
       name: 1-Sheet_1
       rect:
         serializedVersion: 2
-        x: 420
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 400
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: ace5adb0337c57449a4b6538a465b7cd
@@ -157,16 +199,24 @@ TextureImporter:
       name: 1-Sheet_2
       rect:
         serializedVersion: 2
-        x: 813
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 800
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: ad74f837b1f79854db3dabdf45ca9bb5
@@ -179,16 +229,24 @@ TextureImporter:
       name: 1-Sheet_3
       rect:
         serializedVersion: 2
-        x: 1206
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 1200
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: 57a9c6484f2179e4baf776bcf8e020ce
@@ -201,16 +259,24 @@ TextureImporter:
       name: 1-Sheet_4
       rect:
         serializedVersion: 2
-        x: 1599
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 1600
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: 889551e05ee14ba46b5207aaa8220c12
@@ -223,16 +289,24 @@ TextureImporter:
       name: 1-Sheet_5
       rect:
         serializedVersion: 2
-        x: 1992
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 2000
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: ea48bf6f861cfd446aa1d509525df909
@@ -245,16 +319,24 @@ TextureImporter:
       name: 1-Sheet_6
       rect:
         serializedVersion: 2
-        x: 2385
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 2400
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: 0dd06127316a7ea4b91271139cfbaf22
@@ -267,16 +349,24 @@ TextureImporter:
       name: 1-Sheet_7
       rect:
         serializedVersion: 2
-        x: 2778
-        y: 5
-        width: 363
-        height: 695
-      alignment: 0
+        x: 2800
+        y: 23
+        width: 400
+        height: 677
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
+      physicsShape:
+      - - {x: 0, y: -338.5}
+        - {x: 200, y: 0}
+        - {x: 0, y: 338.5}
+        - {x: -200, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: 624350116d4c985438c8c3ba0969d333
