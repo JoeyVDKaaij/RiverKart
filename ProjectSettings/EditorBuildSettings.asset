@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/LevelSelectScene.unity
+    guid: 4eff5b311a13f6848b337a67792fed81
+  - enabled: 1
+    path: Assets/Scenes/SpeedMicrogame.unity
+    guid: 0cb71e6c95e1e694ab5d014e596a9602
+  - enabled: 1
+    path: Assets/Scenes/SignKnowledgeMicroGame.unity
+    guid: e4af63347c656cd469594cbe3aeb3843
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
